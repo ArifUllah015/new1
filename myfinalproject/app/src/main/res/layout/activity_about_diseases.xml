@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundcolor"
+    tools:context=".AboutVaccination">
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/tuberculosis"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Tuberculosis"
+        android:layout_marginBottom="10dp"
+        android:background="@color/pink"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/polio"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/pink"
+        android:text="Polio"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/Diphtheria"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Diphtheria"
+        android:background="@color/pink"
+        android:textColor="#fff"/>
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Pneumonia"
+        android:background="@color/pink"
+        android:textColor="#fff"/>
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:id="@+id/Pertussis"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/pink"
+        android:text="Pertussis"
+        android:textColor="#fff"/>
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:id="@+id/HepB"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Hepatitis-B"
+        android:background="@color/pink"
+        android:textColor="#fff"/>
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Meningitis"
+        android:background="@color/pink"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/pink"
+        android:text="Diarrhea"
+        android:textColor="#fff" />
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:id="@+id/Tetanus"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/pink"
+        android:text="Tetanus"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/Measles"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/pink"
+        android:text="Measles"
+        android:textColor="#fff" />
+
+
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundcolor"
+    tools:context=".AboutVaccination">
+
+    <Button
+       android:layout_marginTop="10dp"
+        android:id="@+id/button15"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="BCG"
+        android:layout_marginBottom="10dp"
+        android:background="@color/pink"
+        android:textColor="#fff"
+        android:onClick="btn_BCG"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/pink"
+        android:text="Hep-B"
+        android:textColor="#fff"
+        android:onClick="btn_hepB"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="OPV-1,2,3"
+        android:background="@color/pink"
+        android:textColor="#fff"
+        android:onClick="btn_Opv"/>
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="PENTAVAlENT-1,2,3"
+        android:background="@color/pink"
+        android:textColor="#fff"
+        android:onClick="btn_pent"/>
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/pink"
+        android:text="Rotavirus Viccine-1,2,3"
+        android:textColor="#fff"/>
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="IPV fractional"
+        android:background="@color/pink"
+        android:textColor="#fff"/>
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="IPV"
+        android:background="@color/pink"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/pink"
+        android:text="MEASLES"
+        android:textColor="#fff"
+        android:onClick="btn_Measles"/>
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/pink"
+        android:text="DPT"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/pink"
+        android:text="VITAMIN A"
+        android:textColor="#fff"
+        android:onClick="btn_DPT"/>
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="PNEUMOCOCCAL"
+        android:background="@color/pink"
+        android:textColor="#fff"/>
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:id="@+id/button14"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="JAPANESE ENCEPHALITIS"
+        android:background="@color/pink"
+        android:textColor="#fff"/>
+</LinearLayout>

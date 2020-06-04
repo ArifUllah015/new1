@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tetanus_Dis">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/pink"
+            android:text="Tetanus:">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="Tetanus, also known as lockjaw, is a bacterial infection characterized by muscle spasms. In the most common type, the
+spasms begin in the jaw and then progress to the rest of the body. ... Tetanus is caused by an infection with the
+bacterium Clostridium tetani, which is commonly found in soil, saliva, dust, and manure.">
+
+        </TextView>
+
+    </LinearLayout>
+</ScrollView>

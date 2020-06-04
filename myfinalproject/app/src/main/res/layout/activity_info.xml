@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    android:orientation="vertical"
+    tools:context=".Info">
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="About Immunization"
+        android:textColor="#fff"
+        android:background="@color/pink"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:onClick="btn_immunize"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/pink"
+        android:text="About Vaccination"
+        android:textColor="#fff"
+        android:onClick="btn_about_vaccination"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="About Diseases "
+        android:textColor="#fff"
+        android:background="@color/pink"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:onClick="btn_diseases"/>
+
+    <Button
+    android:id="@+id/button16"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="About Application"
+    android:textColor="#fff"
+    android:background="@color/pink"
+    android:layout_marginTop="5dp"
+        android:onClick="btn_app_info"/>
+
+
+
+</LinearLayout>

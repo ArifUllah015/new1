@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Polio_VC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Polio:"
+            android:textColor="@color/pink">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Polio, short for poliomyelitis, or infantile paralysis, is an infectious disease caused by the poliovirus. In about
+0.5 percent of cases, there is muscle weakness resulting in an inability to move. This can occur over a few hours to a
+few days.">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Causes:"
+            android:textColor="@color/pink">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+        android:text="Poliovirus spread by fecal-oral route">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Symptoms:"
+            android:textColor="@color/pink">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Muscle weakness resulting in an in...">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Other names:"
+            android:textColor="@color/pink">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Poliomyelitis, infantile paralysis">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Prevention:"
+            android:textColor="@color/pink">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Polio vaccine.">
+        </TextView>
+
+    </LinearLayout>
+</ScrollView>

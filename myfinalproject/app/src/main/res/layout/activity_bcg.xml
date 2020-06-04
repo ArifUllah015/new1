@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BCG">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        android:text="BCG Vaccine"
+        android:textStyle="bold">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="Bacillus Calmette-Guerin(BCg) vaccine is a vaccine primarily used tuberculosis(TB). BCG has protective effects against some non-tuberculosis mycobacteria.
+One dose is recommended in healthy babies as close to the time of birth as possible. Rates of protection against tuberculosis infection vary widely and protection
+lasts up to twenty years. Serious side effects are rare.Often there is redness,swelling and mild pain at the site of injection....">
+    </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/pink"
+            android:text="Qu: Why is BCG vaccine given on the left upper arm only?">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="Ans: BCG is given on the left upper arm to maintain uniformity and for helping surveyors in verifying the receipt of the vaccine
+(by checking the presence of a scar on the left upper arm.)">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/pink"
+            android:text="Qu: If BCG vaccine is not given at birth, when should it be given?">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="Ans: If not given at birth or along with DPT-1, then it should be given as early as possible. BCG can be given any
+time before 1 year of age.">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/pink"
+            android:text="Qu: Why do we given a lower dose(0.05ml) of BCG to neonates below 1 month of age?">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Ans: This is because the skin of newborn is thin and an intradermal injection of 0.1ml may penetrate into the deeper tissue and may cause local abscess and enlarged axillary lymph nodes.">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/pink"
+            android:text="Qu: Why BCG vaccine is given at birth?">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Ans: It stands for Bacillus Calmette Gurrain, the strain of bovine tuberculosis used in the vaccine and attenuated by French scientists Calmette and Gurrain. BCG is given anytime from birth to 15
+days of life along with the zeros dose of oral polio vaccine.">
+        </TextView>
+    </LinearLayout>
+</ScrollView>

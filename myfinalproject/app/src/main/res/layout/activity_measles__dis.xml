@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Measles_Dis">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/pink"
+            android:text="Measles:">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="Measles is a highly contagious infectious disease caused by the measles virus. Symptoms usually develop 10–12 days after
+exposure to an infected person and last 7–10 days. Initial symptoms typically include fever, often greater than 40 °C
+(104 °F), cough, runny nose, and inflamed eyes.
+Causes: Measles morbillivirus.">
+
+        </TextView>
+    </LinearLayout>
+</ScrollView>

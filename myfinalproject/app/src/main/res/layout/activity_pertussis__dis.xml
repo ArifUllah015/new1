@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pertussis_Dis">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/pink"
+            android:text="Pertussis:">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="Pertussis, also known as whooping cough, is a highly contagious respiratory disease. It is caused by the bacterium
+Bordetella pertussis. Pertussis is known for uncontrollable, violent coughing which often makes it hard to breathe.">
+        </TextView>
+    </LinearLayout>
+
+</ScrollView>

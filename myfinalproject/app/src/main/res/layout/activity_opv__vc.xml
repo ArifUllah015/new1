@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OPV_VC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/pink"
+            android:text="Oral polio vaccine (OPV)">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="OPV consists of a mixture of live attenuated poliovirus strains of each of the three serotypes, selected by their ability
+to mimic the immune response following infection with wild polioviruses, but with a significantly reduced incidence of
+spreading to the central nervous system. Three or more spaced doses of OPV are required to generate adequate levels of
+seroconversion. The action of oral polio vaccine (OPV) is two-pronged. OPV produces antibodies in the blood ('humoral' or
+serum immunity) to all three types of poliovirus, and in the event of infection, this protects the individual against
+polio paralysis by preventing the spread of poliovirus to the nervous system. OPV strains also produce a local immune
+response in the lining ('mucous membrane') of the intestines - the primary site for poliovirus multiplication. The
+antibodies produced there inhibit the multiplication of subsequent infections of 'wild' (naturally occurring) virus.
+This intestinal immune response to OPV is probably a reason why mass campaigns with OPV have been shown to stop
+person-to-person transmission of wild poliovirus. In very rare cases, the administration of OPV results in
+vaccine-associated paralysis associated with a reversion of the vaccine strains to the more neurovirulent profile of
+wild poliovirus. In a few instances, such vaccine strains have become both neurovirulent and transmissible and have
+resulted in infectious poliomyelitis.">
+
+        </TextView>
+    </LinearLayout>
+
+
+</ScrollView>

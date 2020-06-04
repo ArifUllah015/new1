@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myfinalproject">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Measles_Dis"></activity>
+        <activity android:name=".Tetanus_Dis" />
+        <activity android:name=".HepB_Dis" />
+        <activity android:name=".Pertussis_Dis" />
+        <activity android:name=".Diphtheria_Dis" />
+        <activity android:name=".Polio_VC" />
+        <activity android:name=".Tuberculosis_Dis" />
+        <activity android:name=".DPT_VC" />
+        <activity android:name=".Measles_VC" />
+        <activity android:name=".Pentavalent_VC_" />
+        <activity android:name=".OPV_VC" />
+        <activity android:name=".Hep_B" />
+        <activity android:name=".BCG" />
+        <activity android:name=".About_Immunization" />
+        <activity android:name=".AboutApplication" />
+        <activity
+            android:name=".Veterinary_Hospital_and_Research_Centre"
+            android:label="@string/Veterinary_Hospital_and_Research_Centre" />
+        <activity
+            android:name=".Army_Medical_Corps_Centre"
+            android:label="@string/Army_Medical_Corps_Centre" />
+        <activity
+            android:name=".Centers"
+            android:label="@string/Centers" />
+        <activity
+            android:name=".AddVaccinator"
+            android:label="@string/AddVaccinator" />
+        <activity
+            android:name=".ListOfChild"
+            android:label="@string/ListOfChild" />
+        <activity
+            android:name=".ListOfUsers"
+            android:label="@string/ListOfUsers" />
+        <activity
+            android:name=".DetailsChild"
+            android:label="@string/DetailChild" />
+        <activity
+            android:name=".AdminLogin"
+            android:label="@string/AdminLogin" />
+        <activity
+            android:name=".AdminActivity"
+            android:label="AdminActivity" />
+        <activity
+            android:name=".Vaccinator"
+            android:label="@string/Vaccinator" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/MapsActivity" />
+        <activity
+            android:name=".AboutDiseases"
+            android:label="@string/AboutDiseases" />
+        <activity
+            android:name=".Awareness"
+            android:label="@string/Awareness" />
+        <activity
+            android:name=".AboutVaccination"
+            android:label="@string/AboutVaccination" />
+        <activity
+            android:name=".Info"
+            android:label="@string/Info" />
+        <activity
+            android:name=".Schedule"
+            android:label="@string/Schedule" />
+        <activity
+            android:name=".Event"
+            android:label="@string/Event" />
+        <activity
+            android:name=".View_Child"
+            android:label="@string/View_Child" />
+        <activity
+            android:name=".Add_child"
+            android:label="@string/Add_child" />
+        <activity
+            android:name=".Profile"
+            android:label="@string/Profile" />
+        <activity
+            android:name=".dashboard"
+            android:label="@string/dashboard" />
+        <activity
+            android:name=".signup_form"
+            android:label="@string/signup_form" />
+        <activity
+            android:name=".login_form"
+            android:label="@string/login_form" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

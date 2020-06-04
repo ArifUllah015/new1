@@ -1,0 +1,43 @@
+<resources>
+
+    <string name="app_name">myfinalproject</string>
+    <string name="login_form">Login Form</string>
+    <string name="signup_form">Registration Form</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="Add_child">Add Child</string>
+    <string name="Event">Event</string>
+    <string name="Info">Info</string>
+    <string name="Profile">Profile</string>
+    <string name="Schedule">Schedule</string>
+    <string name="View_Child">View Child</string>
+    <string name="AboutVaccination">About Vaccination</string>
+    <string name="Awareness">Awareness</string>
+    <string name="Vaccinator">Vaccinator Login</string>
+    <string name="AboutDiseases">About Diseases</string>
+    <string name="DetailChild">Schedule Detail</string>
+    <string name="AdminLogin">Admin Login</string>
+    <string name="CreateVaccinator">Add Vaccinator</string>
+    <string name="AdminActivity">Admin</string>
+    <string name="ListOfUsers">List Of Users</string>
+    <string name="ListOfChild">List Of Children</string>
+    <string name="AddVaccinator">Add New Vaccinator</string>
+    <string name="Centers">Center</string>
+    <string name="Veterinary_Hospital_and_Research_Centre">Veterinary Hospital and Research Centre</string>
+    <string name="Army_Medical_Corps_Centre">Army Medical Corps Centre</string>
+    <string name="MainActivity">Child Immunization System</string>
+
+
+    <string name="MapsActivity">Maps</string>
+    <string name="hybrid_map">Hybrid Map</string>
+    <string name="terrain_map">Terrain Map</string>
+    <string name="satellite_map">Satellite Map</string>
+    <string name="normal_map">Normal Map</string>
+
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Measles_VC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/pink"
+            android:textSize="20dp"
+            android:text="Measles vaccine:">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Measles vaccine is a vaccine that prevents measles, Nearly all of those who do not develop immunity after a single
+dose develop it after a second dose.When rates of vaccination within a population are greater than 92% outbreaks of
+measles typically no longer occur; however, they may occur again if rates of vaccination decrease.The vaccine's
+effectiveness lasts many years.It is unclear if it becomes less effective over time.The vaccine may also protect
+against measles if given within a couple of days after exposure to measles.">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/pink"
+            android:text="Schedule:">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="The World Health Organization (WHO) recommends two doses of vaccine for all children.In countries with high risk of
+disease the first dose should be given around nine months of age.Otherwise it can be given at twelve months of
+age.The second dose should be given at least one month after the first dose.This is often done at age 15 to 18
+months.After one dose at the age of nine months 85% are immune, while a dose at twelve months results in 95% immunity.
+">
+
+        </TextView>
+    </LinearLayout>
+
+</ScrollView>

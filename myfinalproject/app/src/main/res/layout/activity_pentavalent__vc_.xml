@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pentavalent_VC_">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/pink"
+            android:text="Pentavalent vaccine:">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="A pentavalent vaccine, also known as 5-in-1 vaccine, is a combination vaccine with five individual vaccines conjugated
+into one, intended to actively protect people from multiple diseases.
+
+The most widely used example is a vaccine that protects against Haemophilus influenzae type B (a bacterium that causes
+meningitis, pneumonia and otitis), whooping cough, tetanus, hepatitis B and diphtheria.The generic name for this
+vaccine is diphtheria, tetanus, pertussis (whole cell), hepatitis B (rDNA) and Haemophilus influenzae type B conjugate
+vaccine (absorbed) or DTP-HepB-Hib. This pentavalent vaccine has largely supplanted other pediatric combination vaccines,
+especially in middle- and low-income countries. By 2013, pentavalent vaccines accounted for 100% of the DTP-containing
+vaccines procured by UNICEF, which supplies vaccines to a large proportion of the world's children.">
+
+        </TextView>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HepB_Dis">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/pink"
+            android:text="Hepatitis B:">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="Hepatitis B is a serious liver infection caused by the hepatitis B virus (HBV). ... Having chronic hepatitis B increases
+your risk of developing liver failure, liver cancer or cirrhosis — a condition that permanently scars of the liver.">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/pink"
+            android:text="Symptoms:">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+           android:text="Signs and symptoms of hepatitis B range from mild to severe. They usually appear about one to four months after you've
+been infected, although you could see them as early as two weeks post-infection. Some people, usually young children,
+ may not have any symptoms.">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/pink"
+            android:text="Hepatitis B signs and symptoms may include:">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="Abdominal pain
+-Dark urine
+-Fever
+-Joint pain
+-Loss of appetite
+-Nausea and vomiting
+-Weakness and fatigue
+-Yellowing of your skin and the whites of your eyes (jaundice)">
+        </TextView>
+    </LinearLayout>
+</ScrollView>

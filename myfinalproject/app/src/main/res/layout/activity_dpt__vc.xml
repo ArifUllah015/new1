@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DPT_VC">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/pink"
+            android:text="Def:">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="DTP vaccine confers immunity to diphtheria , tetanus , and pertussis. The vaccine used in the United States is actually
+multiple diphtheria and tetanus toxoids combined with acellular pertussis (DTaP). The original vaccine, which as of 2004
+was still used in other parts of the world, contains whole cells of Bordatella pertussis , the organism that causes
+ pertussis, better known as whooping cough . The whole cell vaccine is more likely to cause adverse effects and does not
+ provide any greater immunity.">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/pink"
+            android:text="Description:">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="DTP vaccine conveys immunity to three different infectious diseases:
+
+Diphtheria is a potentially fatal disease that usually involves the nose, throat, and air passages, but may also infect
+the skin. Its most striking feature is the formation of a grayish membrane covering the tonsils and upper part of the
+throat. It is caused by Corynebacterium diphtheriae . Routine vaccination has almost eradicated diphtheria from the
+United States, but it is still seen in many parts of the world.
+Tetanus, sometimes called lockjaw, is a disease caused by the toxin of Clostridium tetani . The disease affects the
+central nervous system and causes painful muscle contractions. Food is not given by mouth to those with muscle spasm
+ but may be given via nasogastric tube or intravenously. Tetanus is often fatal.
+Pertussis, also called whooping cough, is a respiratory disease caused by Bordatella pertussis . The name comes from a
+ typical cough which starts with a deep inhalation, followed by a series of quick, short coughs that continues until the
+ air is expelled from the lungs, and ends with a long shrill, whooping inhalation. Pertussis is very contagious and
+usually affects young children.">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/pink"
+            android:text="General use:">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Diphtheria and tetanus toxoids and acellular pertussis, taken together, provides immunity against diphtheria, tetanus,
+ and whooping cough. The vaccine is normally given to children somewhere between the ages of two months and seven years
+of age (prior to their seventh birthday). Because these diseases can pose a severe problem in early childhood, the shots
+should be given as early in life as possible.">
+        </TextView>
+
+    </LinearLayout>
+</ScrollView>

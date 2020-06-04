@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hep_B">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/pink"
+            android:text="What is a hepatitis B vaccine?">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+
+            android:text="A hepatitis B vaccine prevents hepatitis B virus infection (HBV). Engerix-B and Recombivax HB (both brand names) are
+examples of hepatitis B vaccines approved by the U.S. Food and Drug Administration (FDA).
+HBV is an opportunistic infection (OI) of HIV. An OI is an infection that occurs more frequently or is more severe in
+ people with weakened immune systems—such as people with HIV—than in people with healthy immune systems. To learn more
+ about OIs, read the AIDSinfo What is an Opportunistic Infection? fact sheet. To learn how HIV and HBV infection are
+connected, read the AIDSinfo HIV and Hepatitis B fact sheet.
+The Guidelines for the Prevention and Treatment of Opportunistic Infections in Adults and Adolescents with HIV include
+recommendations on the use of hepatitis B vaccines in people with HIV.">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/pink"
+            android:text="What should I tell my health care provider before receiving a hepatitis B vaccine?">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="Before receiving a hepatitis B vaccine, tell your health care provider:
+
+If you are allergic to yeast, any other ingredient in a hepatitis B vaccine, or any medicines. Tell your health care
+ provider if you have ever had any reactions to a previous dose of a hepatitis B vaccine.
+About any medical conditions you have or have had.
+If you are pregnant or plan to become pregnant. Talk to your health care provider about the risks and benefits of getting
+a hepatitis B vaccine during pregnancy.
+If you are breastfeeding or plan to breastfeed. Do not breastfeed if you have HIV.
+About other prescription and nonprescription medicines, vitamins, nutritional supplements, and herbal products you are
+taking or plan to take. Hepatitis B vaccines may affect the way other medicines or products work, and other medicines or
+ products may affect how hepatitis B vaccines work. Ask your health care provider if there are interactions between
+hepatitis B vaccines and the medicines you take.
+Ask your health care provider about possible side effects from getting a hepatitis B vaccine. Your health care provider
+will tell you what to do if you have side effects.">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/pink"
+            android:text="How is a hepatitis B vaccine given?">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="A health care provider gives the hepatitis B vaccine. The vaccine is given as a shot injected into a muscle, usually in
+ the arm for adults and children older than 1 year and in the thigh for infants and children younger than 1 year.
+ Vaccination with a hepatitis B vaccine is usually given as a series of two, three, or four shots over a 4- to 6-month
+ period, depending on the specific brand of the vaccine. Read any printed information that your health care provider
+gives you about the hepatitis B vaccine.">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/pink"
+            android:text="Where can I find more information about hepatitis B vaccines?">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="More information about hepatitis B vaccines is available:
+
+Recommendations on the use of hepatitis B vaccines in people living with HIV, from the Guidelines for the Prevention and
+ Treatment of Opportunistic Infections in Adults and Adolescents with HIV, prepared by the Centers for Disease Control
+ and Prevention, the National Institutes of Health, and the HIV Medicine Association of the Infectious Diseases Society
+ of America
+Hepatitis B vaccine-related research studies, from the AIDSinfo database of ClinicalTrials.gov study summaries
+The above Patient Version drug summary is based on the following FDA label(s): Engerix-B injection (suspension);">
+        </TextView>
+    </LinearLayout>
+
+
+</ScrollView>
